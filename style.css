@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica,sans-sarif;
+}
+
+.background-header{
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(rgba(77,92,111,0.9),rgba(77,92,111,0.9)),
+   url('https://womensrunning-compgroup.netdna-ssl.com/wp-content/uploads/2017/02/youre-a-runner.jpg');
+  background-size: cover;
+  height: 60vw;
+  width: 100;
+}
+
+nav{
+width: 100%;
+position: relative;
+top:20px;
+
+
+}
+.navbar-items{
+  width: 90%;
+  margin: 0;
+  list-style: none;
+
+}
+.navbar-items li {
+  display: inline-block;
+  background: transparent;
+  padding: 10px;
+}
+.logo{
+position: relative;top:-5px;
+width: 20%;
+float: left;
+background: yellow;
+}
+.logotext{
+  position: absolute;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  color: white;
+}
+.actionlink{
+
+  float:right;
+  width: 30%;
+  color: #ddd;
+  font-family: Helvetical;
+  font-style: italic;
+  font-size: 12px;
+}
+.actionlink a{
+text-decoration: none;
+color:#fff;
+background: #475266;
+padding: 5px;
+border-radius: 5px;
+font-style: normal;
+text-transform: uppercase;
+font-family: sans-serif;
+margin-left: 30px;
+}
+
+.container{
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+.content{
+  position: relative;
+  top:80px;
+  width: 100%;
+
+float: left;
+}
+.leftContent{
+  float: right;
+  width: 70%;
+
+}
+.rightContent{
+float: right;
+  width: 30%;
+
+}
+.rightContent img{
+position: relative;
+
+}
+.headingMain{
+  color: white;
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: monospace;
+}
+.paraLorem{
+  font-family: sans-serif;
+  color: white;
+  font-size: 1.3vw;
+}
+button{
+  margin-top: 40px;
+  padding: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  background: linear-gradient(#52ad81, #50a87c);
+  border:none;
+}
